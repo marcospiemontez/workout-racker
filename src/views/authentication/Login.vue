@@ -17,6 +17,7 @@
 import { ref, onMounted } from 'vue';
 import { Auth } from '@/types/Auth';
 import { authStore } from '@/store/modules/auth/user';
+import { useRouter, useRoute } from 'vue-router'
 
 const loginData = ref<Auth>({
   email: '',
@@ -25,10 +26,12 @@ const loginData = ref<Auth>({
 });
 
 const teste = authStore();
+const router = useRouter();
+const route = useRoute();
 
 onMounted(() => {
-  loginData.value.email = 'teste1@gmail.com';
-  loginData.value.password = '1234';
+  console.log('router', router.currentRoute.value);
+  console.log('route', route);
 });
 
 const signUpUser = async () => {

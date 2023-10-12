@@ -4,8 +4,6 @@ import AuthenticationLayout from '@/layouts/authentication/AuthenticationLayout.
 import Login from '@/views/authentication/Login.vue';
 import Register from '@/views/authentication/Register.vue';
 import ForgotPassword from '@/views/authentication/ForgotPassword.vue';
-import LoggedAreaLayout from '@/layouts/loggedArea/LoggedAreaLayout.vue';
-import Overview from '@/views/dashboard/Overview.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -30,17 +28,6 @@ const routes: Array<RouteRecordRaw> = [
         path: '/forgot-password',
         name: 'ForgotPassword',
         component: ForgotPassword,
-      },
-    ],
-  },
-  {
-    path: '/loggedArea',
-    component: LoggedAreaLayout,
-    children: [
-      {
-        path: '/overview',
-        name: 'Overview',
-        component: Overview,
       },
     ],
   },
