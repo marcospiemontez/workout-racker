@@ -11,6 +11,7 @@ const i18n = createI18n({
   locale: 'pt_BR',
   fallbackLocale: 'pt_BR',
   messages: languages,
+  legacy: false,
 });
 
 export default i18n;

@@ -1,35 +1,23 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
-
-import AuthenticationLayout from '@/layouts/authentication/AuthenticationLayout.vue';
-import Login from '@/views/authentication/Login.vue';
-import Register from '@/views/authentication/Register.vue';
-import ForgotPassword from '@/views/authentication/ForgotPassword.vue';
+import Home from '@/views/Home.vue';
+import Login from '@/views/Login.vue';
+import Register from '@/views/Register.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    component: AuthenticationLayout,
-    children: [
-      {
-        path: '',
-        redirect: 'login'
-      },
-      {
-        path: '/login',
-        name: 'Login',
-        component: Login,
-      },
-      {
-        path: '/register',
-        name: 'Register',
-        component: Register,
-      },
-      {
-        path: '/forgot-password',
-        name: 'ForgotPassword',
-        component: ForgotPassword,
-      },
-    ],
+    name: 'Home',
+    component: Home,
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login,
+  },
+  {
+    path: '/register',
+    name: 'Register',
+    component: Register,
   },
 ];
 
