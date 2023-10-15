@@ -17,7 +17,7 @@
         <input type="password" required class="p-2 text-gray-500 focus:outline-none" id="password" v-model="password" />
       </div>
 
-      <button type="submit" class="mt-6 py-2 px-6 rounded-sm self-start text-sm text-white bg-at-light-green duration-200 border-solid border-2 border-transparent hover: border-at-light-green hover:bg-white hover:text-at-light-green">
+      <button type="submit" class="mt-6 py-2 px-6 rounded-sm self-start text-sm text-white bg-at-light-green duration-200 border-solid border-2 hover: border-at-light-green hover:bg-white hover:text-at-light-green">
         {{ $t('common.login') }}
       </button>
 

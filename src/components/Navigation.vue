@@ -7,7 +7,7 @@
       </div>
       <ul class="flex flex-1 justify-end gap-x-10">
         <router-link class="cursor-pointer" :to="{ name: 'Home' }">{{ $t('common.home') }}</router-link>
-        <router-link v-if="user" class="cursor-pointer" :to="{ name: '' }">{{ $t('common.create') }}</router-link>
+        <router-link v-if="user" class="cursor-pointer" :to="{ name: 'Create' }">{{ $t('common.create') }}</router-link>
         <router-link v-if="!user" class="cursor-pointer" :to="{ name: 'Login' }">{{ $t('common.login') }}</router-link>
         <li v-if="user" @click="logout" class="cursor-pointer">{{ $t('common.logout') }}</li>
       </ul>
