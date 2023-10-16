@@ -42,5 +42,12 @@ export const en_US = {
   },
   errorMessages: {
     notMatchPassord: 'Passwords do not match!',
+    removeExercise: 'Cannot remove, need to at least have one exercise'
+  },
+  successMessages: {
+    createdWorkout: 'Workout Created'
+  },
+  requiredMessage: {
+    emptyField: 'Please fill out this field',
   }
 }

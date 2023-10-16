@@ -53,5 +53,4 @@ const login = async () => {
     }, 5000)
   }
 }
-
 </script>

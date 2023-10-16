@@ -42,5 +42,12 @@ export const pt_BR = {
   },
   errorMessages: {
     notMatchPassord: 'As senhas não correspondem',
+    removeExercise: 'Não é possível remover, é necessário fazer pelo menos um exercísio'
+  },
+  successMessages: {
+    createdWorkout: 'Treino criado com sucesso!'
+  },
+  requiredMessage: {
+    emptyField: 'Por favor, preencha este campo',
   }
 }

@@ -68,5 +68,5 @@ const register = async () => {
   setTimeout(() => {
     errorMessage.value = '';
   }, 5000)
-};
+}
 </script>
