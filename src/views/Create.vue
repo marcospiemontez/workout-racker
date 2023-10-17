@@ -121,7 +121,7 @@ const { t } = useI18n();
 const workoutName = ref<string>('');
 const workoutType = ref<string>('selectWorkout');
 const exercises = ref<any[]>([]);
-const statusMassege = ref<any>(null);
+const statusMassege = ref<string>('');
 const errorMessage = ref<string>('');
 
 const addExercise = () => {
