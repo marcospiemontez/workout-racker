@@ -33,12 +33,14 @@ export const pt_BR = {
     distance: 'Distância',
     duration: 'Duração',
     pace: 'Ritmo',
+    createdWorkout: 'Criar Treino',
   },
   phrases: {
     welcomeMessage: 'Bem-vindo ao nosso aplicativo!',
     confirmationMessage: 'Tem certeza de que deseja excluir este item?',
     alreadyHaveAccount: 'Já possui conta?',
-    dontAlreadyHaveAccount: `Não possui uma conta?`
+    dontAlreadyHaveAccount: `Não possui uma conta?`,
+    looksEmptyHere: 'Parece vazio aqui...',
   },
   errorMessages: {
     notMatchPassord: 'As senhas não correspondem',

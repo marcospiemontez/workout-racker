@@ -33,12 +33,14 @@ export const en_US = {
     distance: 'Distance',
     duration: 'Duration',
     pace: 'Pace',
+    createdWorkout: 'Create Workout',
   },
   phrases: {
     welcomeMessage: 'Welcome to our application!',
     confirmationMessage: 'Are you sure you want to delete this item?',
     alreadyHaveAccount: 'Already have an account?',
-    dontAlreadyHaveAccount: `Don't have an account?`
+    dontAlreadyHaveAccount: `Don't have an account?`,
+    looksEmptyHere: 'Looks empty here...',
   },
   errorMessages: {
     notMatchPassord: 'Passwords do not match!',
