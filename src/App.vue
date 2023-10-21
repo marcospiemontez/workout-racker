@@ -1,12 +1,10 @@
 <template>
   <div v-if="appReady" class="min-h-full font-Poppins box-border">
-    <navigation />
     <router-view />
   </div>
 </template>
 
 <script setup lang="ts">
-import Navigation from '@/components/Navigation.vue';
 import { ref } from 'vue';
 import { supabase } from './supabase/supabase';
 import { userStore } from '@/store/modules/index';

@@ -13,6 +13,7 @@
       </ul>
     </nav>
   </header>
+  <router-view />
 </template>
 
 <script setup lang="ts">

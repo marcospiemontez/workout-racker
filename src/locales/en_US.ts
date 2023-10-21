@@ -34,6 +34,7 @@ export const en_US = {
     duration: 'Duration',
     pace: 'Pace',
     createdWorkout: 'Create Workout',
+    projectName: 'Active Tracker',
   },
   phrases: {
     welcomeMessage: 'Welcome to our application!',

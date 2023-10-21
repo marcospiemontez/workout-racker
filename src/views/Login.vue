@@ -37,7 +37,7 @@ const router = useRouter();
 const email = ref<string>('');
 const password = ref<string>('');
 const errorMessage = ref<string>('');
-
+console.log('me chamou');
 const login = async () => {
   try {
     const { error } = await supabase.auth.signInWithPassword({

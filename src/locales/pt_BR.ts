@@ -34,6 +34,7 @@ export const pt_BR = {
     duration: 'Duração',
     pace: 'Ritmo',
     createdWorkout: 'Criar Treino',
+    projectName: 'Active Tracker',
   },
   phrases: {
     welcomeMessage: 'Bem-vindo ao nosso aplicativo!',
